@@ -1,0 +1,15 @@
+ID: Bug#2
+Environment: Win 10 Pro, Chrome 107.0.5304.107
+Title: Ошибка 404 при клике по гиперссылке [Target Market Determination] в футере страницы Partnership Programme.
+STR: 1. Открыть сайт Capital.com
+     2. Выбрать лицензию ASIC
+     3. Открыть Burger меню
+     4. Выбрать пункт  [About]
+     5. Перейти в раздел Partner with us/Partnership Programme
+     6. Проскроллить к блоку "Предупреждения о рисках"
+     7. Клик по гиперссылке [Target Market Determination]
+Expected result: Редирект на страницу с документом "Target Market Determination" в формате pdf. 
+Actual result: Редирект на страницу с ошибкой 404. 
+Severity: Minor
+Priority: Low
+Attachments: Video

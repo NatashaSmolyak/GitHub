@@ -1,0 +1,4 @@
+FIO - Natasha Smolyak
+Age - 51
+Nnumber_of_pets - 0
+Salary - 2500
