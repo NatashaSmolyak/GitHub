@@ -1,0 +1,11 @@
+{
+	"ID": "Bug#1",
+  "Environment": "Windows 10, Chrome, v: 106.0.5249.119",
+	"Title": "Не происходит редирект на трейдинговую платформу при клике на кнопку [Go to platform] в pop-up окне 'We are excited to see you here!' после клика на кнопку [SELL] либо  [BUY] в таблице инструментов торговли на странице  Markets",
+	"STR": "1. Открыть сайт Capital.com. 2. Выбрать лицензию ASIC. 3. Открыть burger-меню. 4. Перейти в раздел Markets. 5. В таблице инструментов торговли кликнуть по кнопке [SELL] либо [BUY] любого инструмента. 6.В pop-up окне [We are excited to see you here!] кликунть по кнопке [Go to platform]",
+        "Expected result": "Редирект на трейдинговую платформу",
+	"Actual result": "Нет редиректа на трейдинговую платформу ",
+	"Severity": "Major",
+	"Priority": "High",
+   "Attachments": "Video"
+}
