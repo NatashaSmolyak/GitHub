@@ -33,16 +33,16 @@
 <p dir="auto">Открываем для редактирования: <code>$ vim new.json</code></p>
 <p dir="auto">Нажимаем клавишу <code>"i"</code> Вводим текст в формате JSON</p>
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>{
- "Person_name": "Natasha Smolyak",
- "Person_age": 51,
- "Number_of_pets": 0,
+ "Person name": "Natasha Smolyak",
+ "Person age": 51,
+ "Number of pets": 0,
  "Salary": "2500"
 }
 </code></pre><div class="zeroclipboard-container position-absolute right-0 top-0">
     <clipboard-copy aria-label="Copy" class="ClipboardButton btn js-clipboard-copy m-2 p-0 tooltipped-no-delay" data-copy-feedback="Copied!" data-tooltip-direction="w" value="{
- &quot;Person_name&quot;: &quot;Natasha Smolyak&quot;,
- &quot;Person_age&quot;: 51,
- &quot;Number_of_pets&quot;: &quot;0&quot;,
+ &quot;Person name&quot;: &quot;Natasha Smolyak&quot;,
+ &quot;Person age&quot;: 51,
+ &quot;Number of pets&quot;: &quot;0&quot;,
  &quot;Salary&quot;: &quot;2500&quot;
 }" tabindex="0" role="button">
       <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon m-2">
