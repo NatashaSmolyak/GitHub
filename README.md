@@ -4,14 +4,15 @@
 <p dir="auto"><strong>Задание по GitHub_1</strong></p>
 <p dir="auto"><strong>JSON</strong></p>
 <ol start="1" dir="auto">
-<li>Создать внешний репозиторий c названием JSON.</li>
+<li>
+<p dir="auto"> Создать внешний репозиторий c названием JSON. <code>New</code><code>Create repository</code>
+</li>
 </ol>
-<p dir="auto"><code>New</code></p>
-<p dir="auto"><code>Create repository</code></p>
 <ol start="2" dir="auto">
-<li>Клонировать репозиторий JSON на локальный компьютер.</li>
+<li>
+ <p dir="auto"> Клонировать репозиторий JSON на локальный компьютер: <code>$ git clone git@github.com:NatashaSmolyak/JSON.git</code></p>
+</li>
 </ol>
-<p dir="auto"><code>$ git clone git@github.com:NatashaSmolyak/JSON.git</code></p>
 <ol start="3" dir="auto">
 <li>
 <p dir="auto">Внутри локального JSON создать файл “new.json”.     <code>$ touch  new.json</code></p>
