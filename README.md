@@ -185,13 +185,8 @@
 <p dir="auto"><code>- Add file</code></p>
 <p dir="auto"><code>- Create new file</code></p>
 <p dir="auto"><code>- Commit new file</code></p>
+
 <ol start="17" dir="auto">
-<li>Сделать Commit changes (сохранить) изменения на веб интерфейсе.</li>
-</ol>
-<p dir="auto"><code>- Edit this file</code></p>
-<p dir="auto"><code>- В строке Commit changes записываем Update file Bug_report.json</code></p>
-<p dir="auto"><code> - Commit changes</code></p>
-<ol start="18" dir="auto">
 <li>На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.</li>
 </ol>
 <p dir="auto"><code>-edit this file</code></p>
@@ -227,13 +222,13 @@
     </clipboard-copy>
   </div></div>
 
-<ol start="19" dir="auto">
+<ol start="18" dir="auto">
 <li>Сделать Commit changes (сохранить) изменения на веб интерфейсе.</li>
 </ol>
 <p dir="auto"><code>- Edit this file</code></p>
 <p dir="auto"><code>- В строке Commit changes записываем Update file Bug_report.json</code></p>
 <p dir="auto"><code> - Commit changes</code></p>
-<ol start="20" dir="auto">
+<ol start="19" dir="auto">
 <li>Синхронизировать внешний и локальный репозиторий JSON.</li>
 </ol>	
 <p dir="auto"><code> $ git fetch</code></p>
