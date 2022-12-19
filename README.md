@@ -189,7 +189,7 @@
 <ol start="17" dir="auto">
 <li>На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.</li>
 </ol>
-<p dir="auto"><code>-edit this file</code></p>
+<p dir="auto"><code>-Edit this file</code></p>
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>{
 	"ID": Bug#1,
         "Environment": "Windows 10, Chrome, v: 106.0.5249.119",
@@ -225,7 +225,6 @@
 <ol start="18" dir="auto">
 <li>Сделать Commit changes (сохранить) изменения на веб интерфейсе.</li>
 </ol>
-<p dir="auto"><code>- Edit this file</code></p>
 <p dir="auto"><code>- В строке Commit changes записываем Update file Bug_report.json</code></p>
 <p dir="auto"><code> - Commit changes</code></p>
 <ol start="19" dir="auto">
