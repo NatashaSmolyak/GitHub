@@ -226,12 +226,15 @@
 </svg>
     </clipboard-copy>
   </div></div>
+
 <ol start="19" dir="auto">
-<li>
-<p dir="auto">Сделать Commit changes (сохранить) изменения на веб интерфейсе.    в строке Commit changes пишем новый Commit
-<code>Commit changes</code></p>
-</li>
-<li>
-<p dir="auto">Синхронизировать внешний и локальный репозиторий JSON       <code> $ git pull</code></p>
-</li>
+<li>Сделать Commit changes (сохранить) изменения на веб интерфейсе.</li>
 </ol>
+<p dir="auto"><code>- Edit this file</code></p>
+<p dir="auto"><code>- В строке Commit changes записываем Update file Bug_report.json</code></p>
+<p dir="auto"><code> - Commit changes</code></p>
+<ol start="20" dir="auto">
+<li>Синхронизировать внешний и локальный репозиторий JSON.</li>
+</ol>	
+<p dir="auto"><code> $ git fetch</code></p>
+<p dir="auto"><code> $ git pull</code></p>
