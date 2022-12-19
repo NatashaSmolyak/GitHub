@@ -194,4 +194,44 @@
 <ol start="18" dir="auto">
 <li>На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.</li>
 </ol>
-<p dir="auto"><code>-Edit this file</code></p>
+<p dir="auto"><code>-edit this file</code></p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>{
+	"ID": Bug#1,
+        "Environment": "Windows 10, Chrome, v: 106.0.5249.119",
+	"Title": "Не происходит редирект на трейдинговую платформу при клике на кнопку [Go to platform] в pop-up окне 'We are excited to see you here!' после клика на кнопку [SELL] либо  [BUY] в таблице инструментов торговли на странице  Markets",
+        "STR": "1. Открыть сайт Capital.com. 2. Выбрать лицензию ASIC. 3. Открыть burger-меню. 4. Перейти в раздел Markets. 5. В таблице инструментов торговли кликнуть по кнопке [SELL] либо [BUY] любого инструмента. 6.В pop-up окне [We are excited to see you here!] кликунть по кнопке [Go to platform]",
+	"Actual result": "Не происходит редирект на трейдинговую платформу",
+	"Expected result": "Редирект на трейдинговую платформу",
+	"Severity": "Major",
+	"Priority": "High",
+        "Attachments": "Video"
+}
+</code></pre><div class="zeroclipboard-container position-absolute right-0 top-0">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn js-clipboard-copy m-2 p-0 tooltipped-no-delay" data-copy-feedback="Copied!" data-tooltip-direction="w" value="{
+	&quot;ID&quot;:Bug#1,
+        &quot;Environment&quot;: &quot;Windows 10, Chrome, v: 106.0.5249.119&quot;,
+	&quot;Title&quot;: &quot;Не отображаеться предупреждающие окно в приложении при деление на ноль&quot;,
+	&quot;STR&quot;: &quot;1. Открыть сайт Capital.com. 2. Выбрать лицензию ASIC. 3. Открыть burger-меню. 4. Перейти в раздел Markets. 5. В таблице инструментов торговли кликнуть по кнопке [SELL] либо [BUY] любого инструмента. 6.В pop-up окне [We are excited to see you here!] кликунть по кнопке [Go to platform]&quot;,
+	&quot;Actual result&quot;: &quot;Не происходит редирект на трейдинговую платформу&quot;,
+	&quot;Expected result&quot;: &quot;Редирект на трейдинговую платформу&quot;,
+	&quot;Severity&quot;: &quot;Major&quot;,
+	&quot;Priority&quot;: &quot;High&quot;,
+        &quot;Attachments&quot;: &quot;Video&quot;
+}" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon m-2">
+    <path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none m-2">
+    <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<ol start="19" dir="auto">
+<li>
+<p dir="auto">Сделать Commit changes (сохранить) изменения на веб интерфейсе.    в строке Commit changes пишем новый Commit
+<code>Commit changes</code></p>
+</li>
+<li>
+<p dir="auto">Синхронизировать внешний и локальный репозиторий JSON       <code> $ git pull</code></p>
+</li>
+</ol>
