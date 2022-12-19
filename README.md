@@ -171,3 +171,27 @@
 </svg>
     </clipboard-copy>
   </div></div>
+<p dir="auto">Cохраняем и выходим: <code>"ESC" ":wq"</code></p>
+
+<ol start="15" dir="auto">
+<li>Отправить сразу 2 файла на внешний репозиторий.</li>
+</ol>
+<p dir="auto"><code>$ git add .</code></p>
+<p dir="auto"><code>$ git commit -m "Add two files: Preference and Skills"</code></p>
+<p dir="auto"><code>$ git push</code></p>
+<ol start="16" dir="auto">
+<li>На веб интерфейсе создать файл bug_report.json.        </li>
+</ol>
+<p dir="auto"><code>- Add file</code></p>
+<p dir="auto"><code>- Create new file</code></p>
+<p dir="auto"><code>- Commit new file</code></p>
+<ol start="17" dir="auto">
+<li>Сделать Commit changes (сохранить) изменения на веб интерфейсе.</li>
+</ol>
+<p dir="auto"><code>- Edit this file</code></p>
+<p dir="auto"><code>- В строке Commit changes записываем Update file Bug_report.json</code></p>
+<p dir="auto"><code> - Commit changes</code></p>
+<ol start="18" dir="auto">
+<li>На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.</li>
+</ol>
+<p dir="auto"><code>-Edit this file</code></p>
